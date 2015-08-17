@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		CB7B5EA41B820B22000EAC4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EA31B820B22000EAC4C /* main.m */; };
 		CB7B5EA71B820B22000EAC4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EA61B820B22000EAC4C /* AppDelegate.m */; };
-		CB7B5EAA1B820B22000EAC4C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EA91B820B22000EAC4C /* FirstViewController.m */; };
+		CB7B5EAA1B820B22000EAC4C /* zxQxysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EA91B820B22000EAC4C /* zxQxysViewController.m */; };
 		CB7B5EAD1B820B22000EAC4C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EAC1B820B22000EAC4C /* SecondViewController.m */; };
 		CB7B5EB01B820B22000EAC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7B5EAE1B820B22000EAC4C /* Main.storyboard */; };
 		CB7B5EB21B820B22000EAC4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7B5EB11B820B22000EAC4C /* Images.xcassets */; };
 		CB7B5EB51B820B22000EAC4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7B5EB31B820B22000EAC4C /* LaunchScreen.xib */; };
 		CB7B5EC11B820B22000EAC4C /* Curve_DesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EC01B820B22000EAC4C /* Curve_DesignTests.m */; };
+		CB7B5ED31B82109C000EAC4C /* zxConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5ED21B82109C000EAC4C /* zxConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +34,8 @@
 		CB7B5EA31B820B22000EAC4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB7B5EA51B820B22000EAC4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB7B5EA61B820B22000EAC4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB7B5EA81B820B22000EAC4C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CB7B5EA91B820B22000EAC4C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CB7B5EA81B820B22000EAC4C /* zxQxysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zxQxysViewController.h; sourceTree = "<group>"; };
+		CB7B5EA91B820B22000EAC4C /* zxQxysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zxQxysViewController.m; sourceTree = "<group>"; };
 		CB7B5EAB1B820B22000EAC4C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		CB7B5EAC1B820B22000EAC4C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CB7B5EAF1B820B22000EAC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +44,8 @@
 		CB7B5EBA1B820B22000EAC4C /* Curve DesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Curve DesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7B5EBF1B820B22000EAC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB7B5EC01B820B22000EAC4C /* Curve_DesignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Curve_DesignTests.m; sourceTree = "<group>"; };
+		CB7B5ED11B82109C000EAC4C /* zxConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zxConstant.h; sourceTree = "<group>"; };
+		CB7B5ED21B82109C000EAC4C /* zxConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zxConstant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +123,8 @@
 		CB7B5ECA1B820BD4000EAC4C /* 曲线要素 */ = {
 			isa = PBXGroup;
 			children = (
-				CB7B5EA81B820B22000EAC4C /* FirstViewController.h */,
-				CB7B5EA91B820B22000EAC4C /* FirstViewController.m */,
+				CB7B5ED61B8211EF000EAC4C /* Mode */,
+				CB7B5ED41B8211CE000EAC4C /* View */,
 			);
 			name = "曲线要素";
 			path = "Curve Design";
@@ -158,6 +161,8 @@
 			children = (
 				CB7B5EA51B820B22000EAC4C /* AppDelegate.h */,
 				CB7B5EA61B820B22000EAC4C /* AppDelegate.m */,
+				CB7B5ED11B82109C000EAC4C /* zxConstant.h */,
+				CB7B5ED21B82109C000EAC4C /* zxConstant.m */,
 			);
 			name = Other;
 			path = "Curve Design";
@@ -182,6 +187,22 @@
 			children = (
 			);
 			name = "曲线伸缩量";
+			sourceTree = "<group>";
+		};
+		CB7B5ED41B8211CE000EAC4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B5EA81B820B22000EAC4C /* zxQxysViewController.h */,
+				CB7B5EA91B820B22000EAC4C /* zxQxysViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB7B5ED61B8211EF000EAC4C /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +308,8 @@
 			files = (
 				CB7B5EAD1B820B22000EAC4C /* SecondViewController.m in Sources */,
 				CB7B5EA71B820B22000EAC4C /* AppDelegate.m in Sources */,
-				CB7B5EAA1B820B22000EAC4C /* FirstViewController.m in Sources */,
+				CB7B5EAA1B820B22000EAC4C /* zxQxysViewController.m in Sources */,
+				CB7B5ED31B82109C000EAC4C /* zxConstant.m in Sources */,
 				CB7B5EA41B820B22000EAC4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

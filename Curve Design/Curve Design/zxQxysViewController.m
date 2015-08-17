@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 Bernie Suen. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "zxQxysViewController.h"
 
-@interface FirstViewController ()
+@interface zxQxysViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation zxQxysViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

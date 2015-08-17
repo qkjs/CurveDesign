@@ -1,15 +1,13 @@
 //
-//  FirstViewController.h
+//  zxConstant.m
 //  Curve Design
 //
 //  Created by Bernie Suen on 15/8/17.
 //  Copyright (c) 2015年 Bernie Suen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "zxConstant.h"
 
-@interface FirstViewController : UIViewController
-
+@implementation zxConstant
 
 @end
-

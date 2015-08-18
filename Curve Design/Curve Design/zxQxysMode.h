@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "zxConstant.h"
+#import "zxQxysView.h"
 
 @interface zxQxysMode : NSObject
 

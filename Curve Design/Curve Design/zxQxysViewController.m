@@ -34,18 +34,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self zxQxys];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - 布局
 - (IBAction)zxQsTypeChange:(UISegmentedControl *)sender {
     
-//    self.zxQxys.zxViewQsType = sender.selectedSegmentIndex;
+    self.zxQxys.zxQsTypeInView = sender.selectedSegmentIndex;
 
 }
 

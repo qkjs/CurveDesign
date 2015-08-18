@@ -208,7 +208,7 @@
 
 + (instancetype) zxCreateViewUsingIndex:(NSInteger)index{
     zxQxysView *zxQxys =  [[zxQxysView alloc]initWithFrame: [[UIScreen mainScreen] bounds]];
-
+    [zxQxys zxWhsqsFreamWork];
     return zxQxys;
 }
 

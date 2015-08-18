@@ -21,14 +21,22 @@
                     <navigationItem key="navigationItem" id="8J6-Cq-QnM">
                         <nil key="title"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="gun-zh-fm2">
-                            <rect key="frame" x="108" y="6.5" width="159" height="31"/>
+                            <rect key="frame" x="108" y="7" width="159" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="无缓和曲线"/>
                                 <segment title="有缓和曲线"/>
                             </segments>
+                            <connections>
+                                <action selector="zxQsTypeChange:" destination="9pv-A4-QxB" eventType="valueChanged" id="69q-c2-z2U"/>
+                            </connections>
                         </segmentedControl>
                     </navigationItem>
+                    <connections>
+                        <outlet property="noti" destination="8J6-Cq-QnM" id="vKc-3k-Zqz"/>
+                        <outlet property="view" destination="tsR-hK-woN" id="Usx-pe-W50"/>
+                        <outlet property="zxSelectControl" destination="gun-zh-fm2" id="XOn-Ll-9Se"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>

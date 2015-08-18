@@ -16,6 +16,8 @@
 		CB7B5EB51B820B22000EAC4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7B5EB31B820B22000EAC4C /* LaunchScreen.xib */; };
 		CB7B5EC11B820B22000EAC4C /* Curve_DesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EC01B820B22000EAC4C /* Curve_DesignTests.m */; };
 		CB7B5ED31B82109C000EAC4C /* zxConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5ED21B82109C000EAC4C /* zxConstant.m */; };
+		CB7B5ED91B823C60000EAC4C /* zxQxysMode.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5ED81B823C60000EAC4C /* zxQxysMode.m */; };
+		CB7B5EDD1B82AB64000EAC4C /* zxQxysView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B5EDC1B82AB64000EAC4C /* zxQxysView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		CB7B5EC01B820B22000EAC4C /* Curve_DesignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Curve_DesignTests.m; sourceTree = "<group>"; };
 		CB7B5ED11B82109C000EAC4C /* zxConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zxConstant.h; sourceTree = "<group>"; };
 		CB7B5ED21B82109C000EAC4C /* zxConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zxConstant.m; sourceTree = "<group>"; };
+		CB7B5ED71B823C60000EAC4C /* zxQxysMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zxQxysMode.h; sourceTree = "<group>"; };
+		CB7B5ED81B823C60000EAC4C /* zxQxysMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zxQxysMode.m; sourceTree = "<group>"; };
+		CB7B5EDB1B82AB64000EAC4C /* zxQxysView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zxQxysView.h; sourceTree = "<group>"; };
+		CB7B5EDC1B82AB64000EAC4C /* zxQxysView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zxQxysView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +129,9 @@
 		CB7B5ECA1B820BD4000EAC4C /* 曲线要素 */ = {
 			isa = PBXGroup;
 			children = (
+				CB7B5EDA1B82AB39000EAC4C /* View */,
 				CB7B5ED61B8211EF000EAC4C /* Mode */,
-				CB7B5ED41B8211CE000EAC4C /* View */,
+				CB7B5ED41B8211CE000EAC4C /* Controller */,
 			);
 			name = "曲线要素";
 			path = "Curve Design";
@@ -189,20 +196,31 @@
 			name = "曲线伸缩量";
 			sourceTree = "<group>";
 		};
-		CB7B5ED41B8211CE000EAC4C /* View */ = {
+		CB7B5ED41B8211CE000EAC4C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				CB7B5EA81B820B22000EAC4C /* zxQxysViewController.h */,
 				CB7B5EA91B820B22000EAC4C /* zxQxysViewController.m */,
 			);
-			name = View;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		CB7B5ED61B8211EF000EAC4C /* Mode */ = {
 			isa = PBXGroup;
 			children = (
+				CB7B5ED71B823C60000EAC4C /* zxQxysMode.h */,
+				CB7B5ED81B823C60000EAC4C /* zxQxysMode.m */,
 			);
 			name = Mode;
+			sourceTree = "<group>";
+		};
+		CB7B5EDA1B82AB39000EAC4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B5EDB1B82AB64000EAC4C /* zxQxysView.h */,
+				CB7B5EDC1B82AB64000EAC4C /* zxQxysView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +327,9 @@
 				CB7B5EAD1B820B22000EAC4C /* SecondViewController.m in Sources */,
 				CB7B5EA71B820B22000EAC4C /* AppDelegate.m in Sources */,
 				CB7B5EAA1B820B22000EAC4C /* zxQxysViewController.m in Sources */,
+				CB7B5ED91B823C60000EAC4C /* zxQxysMode.m in Sources */,
 				CB7B5ED31B82109C000EAC4C /* zxConstant.m in Sources */,
+				CB7B5EDD1B82AB64000EAC4C /* zxQxysView.m in Sources */,
 				CB7B5EA41B820B22000EAC4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

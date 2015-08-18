@@ -10,10 +10,6 @@
 #import "zxConstant.h"
 
 
-typedef NS_ENUM(NSInteger, zxQsTypeEnum) {
-    zxQxysModeWhsqs = 0,
-    zxQxysModeYhsqs
-};
 
 @interface zxQxysView : UIView
 #pragma mark - property

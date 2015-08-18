@@ -15,10 +15,6 @@
 #define zxScreenW   [[UIScreen mainScreen] bounds].size.width
 #define zxScreenH   [[UIScreen mainScreen] bounds].size.height
 
-typedef NS_ENUM(NSInteger, zxQsTypeEnum) {
-    zxQxysModeWhsqs = 0,
-    zxQxysModeYhsqs
-};
 
 typedef NS_ENUM(NSInteger, zxFuncationTypeEnum){
     zxFuncationQsys = 0,
